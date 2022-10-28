@@ -5,7 +5,7 @@ const data = [
   {
     id: 1,
     title: "Twitter Link",
-    link: "#",
+    link: "http://twitter.com/iam_topwhiz",
     newid: "twitter"
   },
 
