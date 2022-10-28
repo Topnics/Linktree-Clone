@@ -1,0 +1,51 @@
+.avi {
+    margin-top: 4rem;
+   text-align: center; 
+   display: flex;
+   align-items:center;
+   flex-direction: column;
+   justify-content: center;
+   gap: 1rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+}
+
+.profilepics {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.profilepics img {
+    width: 100%;
+    height: 100%;
+}
+
+.profilepics .icon_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    padding: 0.75rem;
+    display: none;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.profilepics .icon_wrapper img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.profilepics:hover .icon_wrapper {
+    display: flex;
+}
