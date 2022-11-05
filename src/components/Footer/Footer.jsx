@@ -6,7 +6,7 @@ import IGLogo from "../../assets/images/I4G.png"
 const Footer = () => {
   return (
    
-    <div className="footer">
+    <div>
 
         <div className="footerFoot">
             <img src={ZuriLogo} alt="Zuri Logo" />

@@ -42,6 +42,13 @@ const data = [
     title: "Design Books",
     link: "https://books.zuri.team/design-rules",
     newid: "book__design"
+  },
+
+    {
+    id: 7,
+    title: "Contact Me",
+    link: "/contact",
+    newid: "contact"
   }
 ]
 
@@ -51,6 +58,7 @@ const Links = () => {
       {
         data.map((list) => (
           <a href={list.link} key={list.id} id={list.newid} className="list_item">{list.title}</a>
+          // <Link to="/contact" className='flat-button'>CONTACT ME</Link>
         ))
       }
     </div>
